@@ -32,8 +32,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/masking-input.css"/>
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/olivia-dhorgent">
-    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/faradilla">
-    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/adega-serif">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/faradilla">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/adega-serif">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
 
@@ -232,7 +232,7 @@
                     <br>
                     <h5>ATTIRE</h5>
                     <br>
-                    <div class="row">
+                    <div class="row" id="wear">
                     <div class="col-sm-2 col-xs-2 col-md-4 col-lg-4"></div>
                     <div class="col-sm-8 col-xs-8 col-md-4 col-lg-4">
                     <img src="img/wear.png">
@@ -250,7 +250,7 @@
                     <p>Please wear <strong>solid colors or with no to very minimal prints.</strong><br>
                         Kindly avoid wearing white, black, loud colors, denim pants and sneakers.<br> 
                     </p>
-                    <p>The venue is a lush garden; we would advise everyone to wear comfortable footwear such as block heels or evening flats</p>
+                    <p>The venue is a lush garden; we would advise everyone to wear comfortable footwear such as block heels or evening flats.</p>
                     <p>To ensure the safety of everyone attending, we will require guest to <strong>wear proper face masks</strong> at all times.
                 </div>
                 <div class="wp6" id="gift">
@@ -289,7 +289,7 @@
             <p> After our unplugged ceremony,<br>
                 help us capture the love by tagging our accounts<br>
                 and share your photos with our wedding hashtag 
-                <a href="https://instagram.com/explore/tags/CHINOwsWhatsBestforJONA" target="_blank"><strong>##CHINOwsWhatsBestforJONA</strong></a>
+                <a href="https://instagram.com/explore/tags/CHINOwsWhatsBestforJONA" target="_blank"><strong>#CHINOwsWhatsBestforJONA</strong></a>
             </p>
         </div><div class="row container">
             
@@ -303,7 +303,7 @@
             <br>
             <p></p>
             <p>Let's celebrate safely by protecting yourself and others.</p>
-            <p>Prior to the wedding guests will be requested to present their <strong>Covid Vaccination card</strong> 
+            <p>Upon registration, guests will be requested to present their <strong>Covid Vaccination card</strong> 
                 <br>before entering the wedding venue.</p>
             <p>Ensure masks are worn at all times during the event. Practice and maintain social distancing at all times.</p>
             <p>Wash and sanitize your hands frequently.</p>
@@ -335,10 +335,31 @@
             <div class="col-md-6 col-md-offset-3">
                 <h1>RSVP</h1>
                 <p>We would greatly appreciate it if you could RSVP by<br>
-                    <strong>November 15, 2021</strong></p>
+                    <strong>November 19, 2021</strong></p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
+                      <div class="row" id="radio">
+                        <div class="col-md-12 col-sm-12">
+                            <strong>RSVP Attendance</strong><br>
+                            <div class="form-check">
+                                <input class="fa form-check-input" type="radio" id="radio-a" name="Attendance" value="Ceremony and Reception">
+                                <label class="form-check-label" for="radio-a">I will attend both Ceremony and Reception</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="fa form-check-input" type="radio" id="radio-b" name="Attendance" value="Ceremony only">
+                                <label class="form-check-label" for="radio-b">I will only attend the Ceremony</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="fa form-check-input" type="radio" id="radio-c" name="Attendance" value="Reception only">
+                                <label class="form-check-label" for="radio-c">I will only attend the Reception</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="fa form-check-input" type="radio" name="Attendance" id="not_attend" value="Will not attend">
+                                <label class="form-check-label" for="radio-d">I will attend Virtually</label>
+                            </div>
+                            <br>
+                        </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">

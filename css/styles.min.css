@@ -5,7 +5,8 @@ p {
     font-size: 15px;
     line-height: 29px;
     color: black;
-    padding-bottom: 12px
+    padding-bottom: 12px;
+    font-family: 'Adega Serif', sans-serif;
 }
 
 h1 {
@@ -149,7 +150,8 @@ body {
     font-weight: 300;
     color: black;
     -webkit-text-size-adjust: 100%;
-    background: white
+    background: white;
+
 }
 
 *:focus {
@@ -733,7 +735,7 @@ header .member-actions {
 
 .events .time .safety .other .unplugged{
     font-size: 13px;
-    font-style: italic;
+    /*font-style: italic;*/
     text-transform: lowercase;
     color: rgba(28, 54, 83, 0.6)
 }
@@ -833,9 +835,10 @@ header .member-actions {
     width: 100%;
 }
 
+#wear img,
 #swatches img,
 #gift img {
-    width: 75%
+    width: 70%
 }
 
 #eng-pics img {
@@ -1107,11 +1110,6 @@ ol {
     padding-left: 35px;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(oliviadhorgent.ttf)
-    font-weight: bold
-}
 
 strong {
       Color: #63748B
@@ -1121,4 +1119,8 @@ iframe {
     width: 100%;
 }
 
-  
+#radio {
+    text-align: left;
+    color: black;
+    font-style: italic;
+}
