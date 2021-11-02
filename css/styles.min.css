@@ -9,7 +9,8 @@ p {
 }
 
 h1 {
-    font-size: 60px
+    font-size: 60px;
+    color: #63748B;
 }
 
 h2 {
@@ -42,9 +43,9 @@ h5 {
 h6 {
     color: #63748B;
     font-size: 50px;
-    letter-spacing: 3px;
+    letter-spacing: 0px;
     line-height: 29px;
-    font-family: 'Olivia Dhorgent', sans-serif;
+    font-family: 'faradilla', sans serif;
     padding-top: 40px;
                                                 
 }
@@ -144,7 +145,7 @@ a:focus {
 }
 /*safety protocol numbered*/
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Adega Serif', sans-serif;
     font-weight: 300;
     color: black;
     -webkit-text-size-adjust: 100%;
@@ -832,6 +833,7 @@ header .member-actions {
     width: 100%;
 }
 
+#swatches img,
 #gift img {
     width: 75%
 }
