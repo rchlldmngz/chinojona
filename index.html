@@ -209,9 +209,6 @@
                     <br>
                     <p>The ceremony will start at exactly <strong>3:00PM</strong> at <strong>OUR LADY OF EPHESUS CHAPEL, Bella Rosa Gardens, Silang, Cavite</strong>.
                        <br>Please be there <strong>at least 15 minutes</strong> before the time so you will not miss anything.</p>
-                       <p>Please be informed that due to the restrictions, only family members and part of the entourage can enter the chapel during the ceremony,<br>
-                        but you will still be able to witness us tie the knot via <strong>livestream in Zoom/Facebook.</strong>
-                    </p>
                     <p></p>
                 </div>
                 <div class="wp6">
@@ -219,7 +216,7 @@
                     <br>
                     <p>Cocktails, dinner & good times will follow after the ceremony.
                         <br>The chapel and the reception venue is all located in one private estate which was specifically reserved for our special day.</p>
-                    <p>For the other guests, the newlyweds will see you at the <strong>reception at 4:30 PM.</strong></p>
+            
                     <p>There is ample space in the vicinity thus parking would not be an issue.</p>
                     <p>Should you have trouble finding the venue, you can refer to the map below or search the venue in any of your navigation apps.</p>
                         <!-- <img src="img/map.png"> -->
@@ -330,12 +327,27 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+        <div id="rsvp-modal2" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>Your response has been recorded.</p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h6>RSVP</h6>
                 <p>We would greatly appreciate it if you could RSVP on or before
-                    <strong>November 19, 2021</strong>.</p>
+                    <strong>November 17, 2021</strong>.</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
@@ -343,20 +355,16 @@
                         <div class="col-md-12 col-sm-12">
                             <strong>RSVP Attendance</strong><br>
                             <div class="form-check">
-                                <input class="fa form-check-input" type="radio" id="radio-a" name="attendance" value="Ceremony and Reception">
-                                <label class="form-check-label" for="radio-a">I will attend both Ceremony and Reception</label>
+                                <input class="fa form-check-input" type="radio" id="radio-a" name="attendance" value="Attending">
+                                <label class="form-check-label" for="radio-a">I will be there!</label>
                             </div>
                             <div class="form-check">
-                                <input class="fa form-check-input" type="radio" id="radio-b" name="attendance" value="Ceremony only">
-                                <label class="form-check-label" for="radio-b">I will only attend the Ceremony</label>
+                                <input class="fa form-check-input" type="radio" id="radio-b" name="attendance" value="Virtual">
+                                <label class="form-check-label" for="radio-b">I will celebrate from afar (virtually).</label>
                             </div>
                             <div class="form-check">
-                                <input class="fa form-check-input" type="radio" id="radio-c" name="attendance" value="Reception only">
-                                <label class="form-check-label" for="radio-c">I will only attend the Reception</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="fa form-check-input" type="radio" name="attendance" id="not_attend" value="Virtually">
-                                <label class="form-check-label" for="radio-d">I will attend Virtually</label>
+                                <input class="fa form-check-input" type="radio" id="radio-c" name="attendance" value="Not Attending">
+                                <label class="form-check-label" for="radio-c">Sorry, I can't make it.</label>
                             </div>
                             <br>
                         </div>
@@ -372,7 +380,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-phone"></i><input type="number" id="phone" name="phone"
                                                                     placeholder="Mobile number" 
-                                                                    required>
+                                >
                             </div>
                         </div>
                     </div>
@@ -382,7 +390,7 @@
                                 <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
                                                                   id="extras"
                                                                   placeholder="No. of companions"
-                                                                  required>
+                                >
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -390,7 +398,7 @@
                                 <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
                                                                 class="" min="0"
                                                                 placeholder="Invite code"
-                                                                required>
+                                >
                             </div>
                         </div>
                     </div>
